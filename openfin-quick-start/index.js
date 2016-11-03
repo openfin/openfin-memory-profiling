@@ -23,7 +23,7 @@ var numWins = 10;
 var windows = [];
 
 function createWindows () {
-  for (var i = 0; i <= numWins; i++){
+  for (var i = 0; i < numWins; i++){
     var _window = new fin.desktop.Window(
         {
             name: "win" + Date.now(),
