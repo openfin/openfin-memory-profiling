@@ -1,0 +1,15 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "OpenFin appseed",
+        "description": "A vanilla appseed for OpenFin applications",
+        "url": "http://localhost:8080/",
+        "uuid": "openfin-test",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "6.49.12.104"
+    },
+    "shortcut": {}
+}
