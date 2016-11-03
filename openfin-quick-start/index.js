@@ -27,8 +27,8 @@ function createWindows () {
     var _window = new fin.desktop.Window(
         {
             name: "win" + Date.now(),
-            //url: "http://localhost:8080/child.html",
-            url: "https://twitter.com/",
+            url: "http://localhost:8080/child.html",
+            //url: "https://twitter.com/",
             defaultWidth: 800,
             defaultHeight: 600,
             autoShow: true
