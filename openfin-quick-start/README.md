@@ -21,7 +21,7 @@ git clone https://github.com/openfin/openfin-memory-profiling
 cd openfin-quick-start
 # Install dependencies
 npm install
-# Run the app
+# Run the app on Windows
 npm start 
 ```
 
