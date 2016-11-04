@@ -26,4 +26,5 @@ npm start
 ```
 
 ## View Resouce usage
-#Launch your OS's resource viewer. For windows we recommend [process explorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx)
+
+Launch your OS's resource viewer. For windows we recommend [process explorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx)
