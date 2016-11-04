@@ -12,7 +12,7 @@ A basic Openfin application needs just these files:
 - `child.html` - A web page for child windows to render (and avoid having the script for the parent application being re-executed).
 - `package.json` - Not necessary. Simply used to facilitate quick launch
 
-## To Use
+## To install
 
 ```bash
 # Clone this repository
@@ -21,8 +21,26 @@ git clone https://github.com/openfin/openfin-memory-profiling
 cd openfin-quick-start
 # Install dependencies
 npm install
+```
+
+## Launching
+<sub>Demo assumes port 8080 is available</sub>
+
+### user...
+
+```
 # Run the app on Windows
 npm start 
+```
+
+### or ...
+
+```
+npm install -g openfin-cli http-server
+# In one cmd window
+http-server
+# In another
+openfin -l -c http://localhost:8080/app.json
 ```
 
 ## View Resouce usage
