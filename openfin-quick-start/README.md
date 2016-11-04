@@ -7,7 +7,7 @@ This is a minimal Openfin application based on the [Quick Start Guide](https://o
 A basic Openfin application needs just these files:
 
 - `app.json` - Configuration for launching your openfin app that is used by [openfin-cli](https://github.com/openfin/openfin-cli)
-- `index.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
+- `index.js` - Starts the app and creates a browser window to render HTML.
 - `index.html` - A web page to render for the parent window.
 - `child.html` - A web page for child windows to render (and avoid having the script for the parent application being re-executed).
 - `package.json` - Not necessary. Simply used to facilitate quick launch
