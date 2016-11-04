@@ -1,14 +1,14 @@
-
 {
   "name": "openfin-quick-start",
   "version": "1.0.0",
   "description": "A minimal Openfin Windowing Test",
   "scripts": {
-    "start": "START /B node_modules/http-server/bin/http-server & node node_modules/openfin-cli/cli.js -l -c http://localhost:8080/app.json"
+    "prestart": "START /B node_modules\\http-server\\bin\\http-server",
+    "start": "node node_modules\\openfin-cli\\cli.js -l -c http://localhost:8080/app.json"
   },
   "author": "Openfin",
   "devDependencies": {
     "openfin-cli": "^1.1.4",
-    "http-server": "^4.14.0"
+    "http-server": "^0.9.0"
   }
 }
