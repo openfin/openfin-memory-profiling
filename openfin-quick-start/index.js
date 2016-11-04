@@ -26,7 +26,7 @@ function createWindows () {
   for (var i = 0; i < numWins; i++){
     var _window = new fin.desktop.Window(
         {
-            name: "win" + Date.now(),
+            name: "win" + i,
             url: "http://localhost:8080/child.html",
             //url: "https://twitter.com/",
             defaultWidth: 800,
