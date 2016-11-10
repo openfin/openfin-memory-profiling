@@ -37,6 +37,7 @@ npm start
 ```
 npm install -g openfin-cli http-server
 # In one cmd window
+cd public
 http-server
 # In another
 openfin -l -c http://localhost:8080/app.json
